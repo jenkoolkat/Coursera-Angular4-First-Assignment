@@ -2,10 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
-import { MatButtonModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldModule,
-  MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule,
-  MatSlideToggleModule, MatToolbarModule, MatListModule, MatGridListModule,
-  MatCardModule, MatIconModule, MatProgressSpinnerModule, MatDialogModule } from '@angular/material';
+import { MaterialModule } from '@angular/material';
 
 import 'hammerjs';
 
@@ -23,11 +20,7 @@ import { DishdetailComponent } from './dishdetail/dishdetail.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
-    MatButtonModule, MatCheckboxModule, MatDatepickerModule, MatFormFieldModule,
-    MatInputModule, MatRadioModule, MatSelectModule, MatSliderModule,
-    MatSlideToggleModule, MatToolbarModule, MatListModule, MatGridListModule,
-    MatCardModule, MatIconModule, MatProgressSpinnerModule, MatDialogModule,
+    MaterialModule,
     FlexLayoutModule
   ],
   providers: [],
